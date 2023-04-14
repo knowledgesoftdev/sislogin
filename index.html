@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">LOGUEATE</h1>
+        <div class="group">
+            <input type="text" id="username" placeholder="Username">
+            <span id="error-username"></span>
+        </div>
+        <div class="group">
+            <input type="password" id="password" placeholder="Password">
+            <span id="error-password"></span>
+        </div>
+        <div class="loading">
+            <img width="32" height="32" src="assets/loading-gif.gif" alt="loading">
+        </div>
+        <div id="resultado">
+
+        </div>
+        <div class="group">
+            <button id="login">LOGIN</button>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
